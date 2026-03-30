@@ -4,6 +4,9 @@
   "description": "Online Tourist Guide - Backend API",
   "type": "module",
   "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "start": "node index.js",
     "start-dev": "nodemon index.js",
@@ -24,7 +27,9 @@
     "mongodb": "^6.16.0",
     "mongoose": "^7.8.7",
     "nodemailer": "^8.0.3",
-    "nodemon": "^3.1.10",
     "serverless-http": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
