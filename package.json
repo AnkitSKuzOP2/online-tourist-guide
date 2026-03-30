@@ -1,1 +1,10 @@
-{\n  "name": "online-tourist-guide",\n  "version": "1.0.0",\n  "description": "A guide for online tourists.",\n  "scripts": {\n    "build": "webpack --mode production",\n    "start": "webpack-dev-server --open"\n  },\n  "dependencies": {\n    "react": "^17.0.2",\n    "react-dom": "^17.0.2",\n    "axios": "^0.21.1",\n    "redux": "^4.1.0",\n    "react-redux": "^7.2.4"\n  },\n  "devDependencies": {\n    "webpack": "^5.64.4",\n    "webpack-cli": "^4.9.1",\n    "webpack-dev-server": "^4.7.0"\n  }\n}
+{
+  "name": "online-tourist-guide",
+  "version": "1.0.0",
+  "description": "Travel web service — backend on Render, frontend on Vercel",
+  "private": true,
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend/frontend && npm start"
+  }
+}
